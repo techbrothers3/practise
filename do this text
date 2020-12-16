@@ -1,0 +1,9 @@
+/enter these 2 line in cmd one after the other to increase the screen resolution.
+
+sudo xrandr --newmode "1600x900_60.00"  118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
+
+sudo xrandr --addmode VGA-1 "1600x900_60.00"
+
+cd Downloads/idea-IC-201.7846.76/bin/
+
+./idea.sh 
