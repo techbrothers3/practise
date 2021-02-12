@@ -1,7 +1,7 @@
 import java.util.*;
 public class ConnectRopes {
     static int ans;
-    private static int solve(int [] A) {
+   private static int solve(int [] A) {
         int []heap = new int [A.length];
         ans = 0;
         int n = A.length;
@@ -62,7 +62,12 @@ public class ConnectRopes {
     static boolean inRange(int j, int n) {
         if (j >= n) return false;
         return true;
-    }
+//        int []heap = new int[A.length];
+//        for (int i = A.length-1; i >= 0; i--) {
+//            heap[i] = A[i];
+////            downHeap
+//        }
+   }
     public static void main(String[] args) {
         int A[] = { 5,17,100,11 };
         System.out.println(solve(A));
